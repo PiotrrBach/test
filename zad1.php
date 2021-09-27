@@ -1,7 +1,12 @@
-<?php 
+<?php
 
-$imie = "Piotr" ;
-$kierunek = "technik programista";
+    $i=0;
 
-echo "Mam na imie ". $imie . " , jestem uczniem szkoły średniej na kierunku".$kierunek;
+    for($liczba = 0;$liczba<=150;$liczba+=2)
+    {
+
+        $i+=$liczba;
+    }
+    echo $i;
+
 ?>
